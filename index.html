@@ -1,55 +1,244 @@
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Biodata</title>
-    <link rel="stylesheet" href="./Biodata.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/Biodata.css">
 
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
-<body>
-    <div class="nav">
-        <ul>
-            <li><a href="">Biodata</a></li>
-            <li><a href="portofolio.html">Portofolio</a></li>
-        </ul>
-    </div>
-    <div class="box">
-        <h1 clas="name">SANIA AULIYANA DIATRI</h1>
-        <img src="IMG_20201109_113322.jpg" alt="danielle">
-        <h2 class="text">Tentang Saya</h2>
-        <p>Saya memilih jurusan Sistem Informasi karena melihat bahwa lapangan kerja dan peluang karier di
-            bidang ini sangat besar.
-            Sejak menggeluti dunia Sistem Informasi, saya menjadi lebih lebih paham tentang teknologi dari pada
-            sebelumnya.
-            Saya seorang yang kreatif dan suka mencari alternatif solusi dari berbagai macam persoalan.
-            Saya juga bersikap terbuka terhadap semua kemungkinan solusi yang ada.
-            Kreativitas sangat membantu saya untuk menjadi pemimpin yang baik karena saya bisa mengantisipasi berbagai
-            persoalan.</p>
-        <h2 class="text">Keahlian Saya</h2>
-        <ol>
-            <li>Figma</li>
-            <li>Canva</li>
-            <li>Enterprise Architect</li>
-        </ol>
-        <h2 class="text">Pendidikan Saya</h2>
-        <ul>
-            <li>2014 - 2017 : SMP Negeri 1 Jember</li>
-            <li>2017 - 2020 : SMA Negeri 2 Jember</li>
-            <li>2020 - sekarang : Universitas Jember</li>
-        </ul>
-        <h2 class="text">Kontak Saya</h2>
-        <div class="link">
-            <a href="https://www.instagram.com/saniaauli_/">Instagram</a>
-            <a>|</a>
-            <a href="https://www.facebook.com/saniya.auliana/">Facebook</a>
-            <a>|</a>
-            <a href="https://www.youtube.com/channel/UCkhyX1osMng8Hh6ajHZaznQ/featured">You Tube</a>
 
+<body>
+    <nav class="navbar navbar-expand-lg bg-light shadow-sm sticky-top">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-dark" aria-current="page" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-dark" aria-current="page" href="#portofolio">Portofolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bolder text-dark" aria-current="page" href="#contact">Contact Me</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <div id="hero" class="container d-flex flex-column align-items-center justify-content-center">
+        <img src="./assets/image/sania.jpg" class="image-hero rounded-circle" alt="">
+        <h1 class="title fw-bold">Sania Auliyana Diatri</h1>
+        <p class="subtitle">photographer</p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-arrow-down"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+        </svg>
+    </div>
+
+    <!-- About Me -->
+    <div id="about" class="container d-flex flex-column align-items-center justify-content-center">
+        <h2 id="about-text" class="About text-center mb-3">About Me</h2>
+        <div class="row">
+            <div class="col-6">
+                <img src="assets/image/bromo.jpg" id="image" class="shadow rounded w-100" alt="">
+            </div>
+            <div class="col-6">
+                <p class="text-about text-secondary lh-lg">Hi, I'm Sania! I am an amateur photographer who specializes
+                    in nature photography. I've loved this industry since I was a teenager and have been learning
+                    independently for 12 years. I am a highly skilled and creative photographer who is always looking
+                    for new and innovative ways to capture special moments that have meaning. I am passionate about my
+                    potential and take great pride in providing beautiful, high-quality images that have a hidden
+                    meaning. I am always trying to improve my skills and push myself to new levels. I'm a hard worker. I
+                    am a person who enjoys working with other people, which helps me create a relaxed and fun
+                    atmosphere. I am a talented photographer with a true passion for my work. I would like to have the
+                    opportunity to use my skills and experience to capture some amazing moments.
+                </p>
+            </div>
         </div>
     </div>
 
+    <!-- Portofolio -->
+    <div id="portofolio" class="container d-flex flex-column align-items-center justify-content-center">
+        <h2 id="portofolio-text" class="text-center mb-3">My Portofolio</h2>
+        <div class="row">
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/image/langit.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">I took this photo while I was on vacation. To take this photo, a lot of
+                            effort was expended.</p>
+                        <a href="https://www.instagram.com/p/CE9iJFig_rF/?utm_source=ig_web_copy_link"
+                            class="btn btn-primary">Check Post</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/image/pelangi.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">I took this photo while I was at home. I see the colors of the reflected
+                            rainbow are very beautiful</p>
+                        <a href="https://www.instagram.com/p/CBvH7BtArcQ/?utm_source=ig_web_copy_link"
+                            class="btn btn-primary">Check Post</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/image/cahaya.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">I took this photo when I was at my grandmother's house. I saw light
+                            emerging from the thick trees in my grandmother's garden.</p>
+                        <a href="https://www.instagram.com/p/CAeC0dFg7qV/?utm_source=ig_web_copy_link"
+                            class="btn btn-primary">Check Post</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/image/laut.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">I took this photo when I was with my childhood friend. I took this photo to
+                            reminisce about memories with a childhood friend</p>
+                        <a href="https://www.instagram.com/p/CirmFohOmUB/?utm_source=ig_web_copy_link"
+                            class="btn btn-primary">Check Post</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container align-items-center justify-content-center">
+        <div class="row">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="https://www.instagram.com/p/CFErT2ygCTp/?utm_source=ig_web_copy_link"><img id="image"
+                                src="assets/image/1.jpg" class="d-block w-100" alt="..."></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://www.instagram.com/p/CFErT2ygCTp/?utm_source=ig_web_copy_link"><img id="image"
+                                src="assets/image/2.jpg" class="d-block w-100" alt="..."></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://www.instagram.com/p/CQ0XEWfAtLz/?utm_source=ig_web_copy_link"><img id="image"
+                                src="assets/image/3.jpg" class="d-block w-100" alt="..."></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://www.instagram.com/p/CR6VN-WARzN/?utm_source=ig_web_copy_link"><img id="image"
+                                src="assets/image/4.jpg" class="d-block w-100" alt="..."></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://www.instagram.com/p/CimJMgahqF5/?utm_source=ig_web_copy_link"><img id="image"
+                                src="assets/image/5.jpg" class="d-block w-100" alt="..."></a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Me -->
+    <div id="contact" class="container">
+        <div class="card">
+            <div class="card-header">
+                <h2 class="text-center mb-3"> Contact Me</h2>
+            </div>
+            <div class="card-body">
+                <form class="col-6 mx-auto">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-bootstrap-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375v2.725z" />
+                        <path
+                            d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396H5.062z" />
+                    </svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Company, Inc</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                            height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                            <path
+                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                            height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                            height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                        </svg></a></li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 
 </body>
 
